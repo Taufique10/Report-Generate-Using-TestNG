@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Open Cart Login">
+    <test name="Login Test">
+        <parameter name="Browser" value="Opera"> </parameter>
+        <classes>
+            <class name="com.CrossBrowser.CB_Login"> </class>
+        </classes>
+    </test>
+</suite>
